@@ -5,14 +5,14 @@ var permalinks  = require('metalsmith-permalinks');
 
 Metalsmith(__dirname)
   .metadata({
-    title: "Ontwerper.com",
+    title: "ontwerper.com",
     description: "UX & Photography",
     generator: "Metalsmith",
     url: "http://www.metalsmith.io/"
   })
   .source('./src')
   .destination('./build')
-  .clean(false)
+  .clean(true)
   .use(markdown())
   .use(permalinks())
   .use(layouts({
