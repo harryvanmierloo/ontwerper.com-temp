@@ -4,11 +4,12 @@ module.exports = (dato, root, i18n) => {
 
   // inside a "src/articles" directory...
   root.createPost(
-    "src/pages/homepage.md", "yaml", {
+    "src/index.md", "yaml", {
       frontmatter: { 
-        title: "Title"
+        layout: "layout.html",
+        title: dato.homePage.title
       },
-      content: dato.homePage.title
+      content: dato.homePage.description
     }
   );
 };

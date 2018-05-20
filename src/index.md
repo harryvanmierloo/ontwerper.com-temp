@@ -1,6 +1,6 @@
 ---
 layout: layout.html
+title: Ontwerper.com
 ---
 
-<h2>Welcome to this homepage</h2>
-<p>Here is my first content!</p>
+UX & Photography
