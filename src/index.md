@@ -1,6 +1,7 @@
 ---
 layout: layout.html
-title: Ontwerper.com
+title: ontwerper.com
+logo: 'https://www.datocms-assets.com/4693/1526827077-avatar.jpg'
 ---
 
-UX & Photography
+This website is about UX & Composite Photography!

@@ -7,7 +7,8 @@ module.exports = (dato, root, i18n) => {
     "src/index.md", "yaml", {
       frontmatter: { 
         layout: "layout.html",
-        title: dato.homePage.title
+        title: dato.homePage.title,
+        logo: dato.homePage.logo.url()
       },
       content: dato.homePage.description
     }
