@@ -1,16 +1,25 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>{{ title }}</title>
-  <meta name="description" content="{{ description }}">
-</head>
-<body>
-  <h1>{{ title }}</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <title>{{ title }}</title>
+    <meta name="description" content="{{ description }}">
+    <link rel="stylesheet" href="assets/main.css" type="text/css" />
+  </head>
 
-  {{{ contents }}}
+  <body>
+    <section class="container">
+      <img src="{{ avatar }}">
+      <div class="content">
+        <h1 class="title">{{ section_title }}</h1>
 
-  <img src="{{ logo }}">
+        {{{ contents }}}
 
-</body>
+        <div class="links">
+          <a class="button--blue" href="{{ linkedin-link }}" target="_blank">Ga naar LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </body>
+
 </html>
