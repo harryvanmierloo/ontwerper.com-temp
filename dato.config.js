@@ -8,7 +8,9 @@ module.exports = (dato, root, i18n) => {
       frontmatter: { 
         layout: "layout.html",
         title: dato.homePage.title,
-        logo: dato.homePage.logo.url()
+        logo: dato.homePage.logo.url({
+          w: 600,
+        })
       },
       content: dato.homePage.description
     }
